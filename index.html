@@ -160,43 +160,49 @@
         <section>
             <h3>Contact Us</h3>
             <form>
-                <label for="firstName">First Name</label>
-                <input id="firstName" name="firstName" type="text" placeholder="Enter first name">
-                <label for="lastName">Last Name</label>
-                <input id="lastName" name="lastName" type="text" placeholder="Enter last name">
-                <fieldset>
-                    <legend>Contact Method</legend>
-                    <input id="methodEmail" type="radio" name="method" value="methodEmail">
-                    <label for="methodEmail">Email</label>
-                    <input id="methodText" type="radio" name="method" value="methodText">
-                    <label for="methodText">Text</label>
-                    <input id="methodPhone" type="radio" name="method" value="methodPhone">
-                    <label for="methodPhone">Phone</label>
-                </fieldset>
-                <label for="email">Email Address</label>
-                <input id="email" name="email" type="email" placeholder="Enter Email">
-                <label for="tel">Phone Number</label>
-                <input id="tel" name="tel" type="tel" placeholder="Enter telephone number">
-                <label for="select-destination">Destination</label>
-                <select id="select-destination" name="select">
-                    <option value="barcelona">Barcelona</option>
-                    <option value="granada">Granada</option>
-                    <option value="ibiza">Ibiza</option>
-                    <option value="madrid">Madrid</option>
-                    <option value="majorca">Majorca</option>
-                    <option value="seville">Seville</option>
-                    <option value="tenerife">Tenerife</option>
-                    <option value="valencia">Valencia</option>
-                </select>
-                <label for="select-time">Travel Time</label>
-                <select id="select-time" name="select">
-                    <option value="fall">Fall</option>
-                    <option value="winter">Winter</option>
-                    <option value="spring">Spring</option>
-                    <option value="summer">Summer</option>
-                    <option value="flexible">Flexible</option>
-                </select>
-                <input type="submit" name="submit" value="Submit">
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input id="firstName" name="firstName" type="text" placeholder="Enter first name">
+                    <label for="lastName">Last Name</label>
+                    <input id="lastName" name="lastName" type="text" placeholder="Enter last name">
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Contact Method</legend>
+                        <input id="methodEmail" name="method" type="radio"  value="methodEmail">
+                        <label for="methodEmail">Email</label>
+                        <input id="methodText" name="method" type="radio" value="methodText">
+                        <label for="methodText">Text</label>
+                        <input id="methodPhone" name="method" type="radio" value="methodPhone">
+                        <label for="methodPhone">Phone</label>
+                    </fieldset>
+                    <label for="email">Email Address</label>
+                    <input id="email" name="email" type="email" placeholder="Enter Email">
+                    <label for="tel">Phone Number</label>
+                    <input id="tel" name="tel" type="tel" placeholder="Enter telephone number">
+                </div>
+                <div>
+                    <label for="select-destination">Destination</label>
+                    <select id="select-destination" name="select">
+                        <option value="barcelona">Barcelona</option>
+                        <option value="granada">Granada</option>
+                        <option value="ibiza">Ibiza</option>
+                        <option value="madrid">Madrid</option>
+                        <option value="majorca">Majorca</option>
+                        <option value="seville">Seville</option>
+                        <option value="tenerife">Tenerife</option>
+                        <option value="valencia">Valencia</option>
+                    </select>
+                    <label for="select-time">Travel Time</label>
+                    <select id="select-time" name="select">
+                        <option value="fall">Fall</option>
+                        <option value="winter">Winter</option>
+                        <option value="spring">Spring</option>
+                        <option value="summer">Summer</option>
+                        <option value="flexible">Flexible</option>
+                    </select>
+                    <input id="submit" name="submit" type="submit" value="Submit">
+                </div>
             </form>
         </section>
     </main>
